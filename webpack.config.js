@@ -18,12 +18,7 @@ module.exports = {
         contentBase: "dist",
         disableHostCheck: true
     },
-    optimization: {
-        splitChunks: {
-            name: 'vendor',
-            chunks: 'all'
-        }
-    },
+    optimization: {},
     plugins: [
         new HtmlWebpackPlugin({
             template: path.join(dirSrc, 'index.html'),
