@@ -13,6 +13,7 @@ Webpack TypeScript optimization test
 Этого не происходит, если в webpack.config.js в секции module.exports поставить 
 `optimization: { minimize: false },`
 
-##Выводы
+Выводы
+-
 
 с описанной конфигурацией webpack пытается оптимизировать код, [иногда] подставляя не обращения к переменным и функциям, а непосредственно их содержимое 
