@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es5",                          
+    "module": "commonjs",
+    "sourceMap": false
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "bower_components",
+    "platforms",
+    "plugins",
+    "assets",
+    "hooks",
+    "dist",
+    "build",
+    "www"
+  ]
+}
